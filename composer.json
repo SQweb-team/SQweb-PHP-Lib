@@ -7,5 +7,10 @@
             "email": "nicolas@sqweb.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SQwebLib\\" : "src/"
+        }
+    }
 }
